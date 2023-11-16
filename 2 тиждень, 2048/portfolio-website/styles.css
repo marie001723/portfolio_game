@@ -1,0 +1,58 @@
+header {
+    background-color: #A0522D;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #FFE4C4;
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+} 
+
+footer {
+    background-color: #A0522D;
+    color: #FFE4C4;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: #FFE4C4;
+    color: Sienna;
+}
+
+.btn {
+    width: 120px; 
+    color: #FFE4C4; 
+    background-color: #A0522D;
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery_form {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}

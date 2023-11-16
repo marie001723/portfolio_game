@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Портфоліо</title>
+</head>
+
+<body>
+     <header>
+        <nav>
+          <ul>
+            <li><a href="#About_me">Про мене</a></li>
+            <li><a href="#Game">Міні-гра 2048</a></li>
+            <li><a href="#Gallery">Галерея</a></li>
+            <li><a href="#Form">Зворотній зв'язок</a></li>
+          </ul>
+        </nav>
+
+     </header>
+
+     <main>
+      <h2 id="About_me">Про мене</h2>
+        <p>Агов! Мене звати Марі, мені 21 рік і я наразі проходжу курс від Ciklum. Запрошую 
+         Вас ознайомитись із моїм проєктом!</p>
+
+      <h2 id="Game">Міні-гра 2048</h2>
+        <p>
+           2048 — відеогра, початково браузерна, написана 19-річним італійським 
+           розробником Габріелем Чіруллі мовою програмування JavaScript. 
+           Гра є числовою головоломкою з полем у формі квадрата 4x4 клітинки. 
+           Мета гри — складаючи плитки з числами, отримати плитку номіналу «2048», звідки й назва.
+        </p>
+        <p>
+            За словами автора, наведеними в газеті «Los Angeles Times», гру «2048» було написано 
+            менш ніж за два дні як вправу в програмуванні. Чіруллі вважає своє творіння 
+            «випадковим вторгненням в ігрову індустрію» та не планує надалі займатися розробкою ігор. 
+            Прообразом «2048» є комерційна гра Threes.
+        </p>
+      
+      
+        <h2 id="Gallery" class="gallery_form">Галерея</h2>
+      <div>  
+        <img src="../pics/2048game_1.jpg" alt="The example 1 of playing the game" width="200">
+        <img src="../pics/2048game_2.jpg" alt="The example 2 of playing the game" width="200">
+        <img src="../pics/2048game_3.jpg" alt="The example 3 of playing the game" width="200">
+      </div>
+
+      
+        <h2 id="Form" class="gallery_form">Зворотній зв'язок</h2>
+      
+      <div>
+        <form action="" method="post">
+         <label for="name">Ім'я:</label> 
+         <input type="text" id="name" name="name"><br><br>
+
+         <label for="email">Пошта:</label> 
+         <input type="email" id="email" name="email"><br><br>
+
+         <label> 
+            <textarea name="" tabindex="14"  rows="4" cols="40" 
+            placeholder="Залишіть свій відгук, будь ласка: побажання чи зауваження"></textarea> 
+         </label><br><br>
+      
+         <input type="submit" value="Відправити" class="btn">
+        </form>
+      </div><br>
+     </main>
+
+    <footer>
+        <p>&copy;Mariia Kichapina</p>
+    </footer>
+</body>
+
+</html>
